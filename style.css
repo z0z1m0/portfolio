@@ -45,6 +45,7 @@
 }
 #headerImg {
     margin-bottom: 40px;
+    width: 100%;
 }
 #headerCta h1{
     font-size: 55px;
@@ -81,6 +82,14 @@ button{
     font-weight: 600;
     line-height: 24px;
     text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+button:hover{
+    background: #2681ff;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    border: #1F7CFF solid 1px;
 }
 button a{
     color: white;
@@ -151,7 +160,7 @@ button a{
     border-radius: 50px;
     text-align: left;
 }
-#bodyCta{
+#contact{
     color: #575455;
     font-size: 16px;
     font-weight: 400;
@@ -159,7 +168,7 @@ button a{
     text-align: left;
     margin: 140px 0 0 50px;
 }
-#bodyCta p{
+#contact p{
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -167,7 +176,7 @@ button a{
     margin-bottom: 0;
     margin-left: 0;
 }
-#bodyCta h1{
+#contact h1{
     color: black;
     font-size: 36px;
     font-weight: 700;
@@ -209,4 +218,9 @@ input{
 #portfolio{
     margin-top: 20px;
     margin-bottom: 50px;
+}
+#cards img{
+    text-align: center;
+    width: 80%;
+    padding-left: 15px;
 }
